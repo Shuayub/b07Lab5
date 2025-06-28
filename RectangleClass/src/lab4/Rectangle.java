@@ -14,4 +14,12 @@ public class Rectangle {
 	public double perimeter() {
 		return (A.distance(B) + B.distance(C))*2;
 	}
+	
+	public double area() {
+		return A.distance(B) * B.distance(C);
+	}
+	
+	public boolean square() {
+		return A.distance(B) == B.distance(C);
+	}
 }
